@@ -1,0 +1,170 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 20;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header li {
+  margin: 0 20px;
+}
+
+header a {
+  color: seashell;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  top: 69px;
+}
+
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  /*background-color: blue;*/
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 100%;
+  align-items: center;
+  background-color: black
+  /*width: 1200px;*/
+}
+
+.mission-text h2 {
+  margin: 10px 0;
+}
+
+.mission-text h4 {
+  margin: 10px 0;
+}
+
+.featured {
+  width: 1000px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured h2 {
+  margin: 10px 0;
+}
+
+.featured h4 {
+  margin: 10px 0;
+}
+
+.featured-teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-1, .row-2 {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 10px 25px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.address-container {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.address h3 {
+  margin: 10px 0;
+}
+
+.address h4 {
+  margin: 15px 0;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer h2,h5 {
+  margin: 10px 0;;
+}
+
+.copyright {
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 20px;
+}
